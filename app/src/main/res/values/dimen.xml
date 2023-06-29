@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  Spacing  -->
+    <dimen name="spacing_8">8dp</dimen>
+    <dimen name="spacing_16">16dp</dimen>
+    <dimen name="spacing_24">24dp</dimen>
+    <dimen name="spacing_32">32dp</dimen>
+
+    <!--  width  -->
+    <dimen name="width_64">64dp</dimen>
+    <dimen name="width_100">100dp</dimen>
+
+    <!--  height  -->
+    <dimen name="height_64">64dp</dimen>
+    <dimen name="height_200">200dp</dimen>
+
+    <!--  radius  -->
+    <dimen name="radius_16">16dp</dimen>
+
+    <!--  icon  -->
+    <dimen name="icon_24">24dp</dimen>
+    <dimen name="icon_100">100dp</dimen>
+</resources>

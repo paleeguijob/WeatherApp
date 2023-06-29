@@ -1,0 +1,20 @@
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+
+    dependencies {
+        classpath ClassPath.androidGradlePlugin
+        classpath ClassPath.kotlinGradlePlugin
+        classpath ClassPath.hiltDaggerDependency
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+    }
+}

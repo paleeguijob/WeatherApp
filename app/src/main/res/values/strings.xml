@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Weather App</string>
+
+    <!--  Common  -->
+    <string name="common_error_title">Something went wrong</string>
+    <string name="common_error_ok">OK</string>
+
+    <!--  Landing Weather  -->
+    <string name="landing_weather_temperature_title">Temperature</string>
+    <string name="landing_weather_humidity_title">Humidity</string>
+    <string name="landing_weather_celsius_title">°C</string>
+    <string name="landing_weather_fahrenheit_title">°F</string>
+    <string name="landing_weather_percentage_title">%</string>
+
+    <!--  Forecast  -->
+
+</resources>
