@@ -10,7 +10,5 @@ https://github.com/paleeguijob/WeatherApp/assets/110875704/a0d6c053-51e1-4419-8e
 
 
 
-# Languages
-- Kotlin
-- Xml
+
 
