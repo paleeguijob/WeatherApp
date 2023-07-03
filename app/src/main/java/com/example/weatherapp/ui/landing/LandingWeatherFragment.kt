@@ -31,6 +31,12 @@ class LandingWeatherFragment : Fragment() {
 
     private val viewModel: LandingWeatherFragmentViewModel by viewModels()
 
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+
+        viewModel.fetchGeoThenFetchWeather(CITY_DEFAULT)
+    }
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
     ): View {
@@ -67,8 +73,6 @@ class LandingWeatherFragment : Fragment() {
 
     private fun setupViewModel() {
         with(viewModel) {
-            viewModel.fetchGeoThenFetchWeather(CITY_DEFAULT)
-
             landingWeatherUi.observe(viewLifecycleOwner, ::observeLandingWeatherUi)
         }
     }
